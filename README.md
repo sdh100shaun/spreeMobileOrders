@@ -11,4 +11,4 @@ Contributers
 
 [Built using the spree commerce api ](http://guides.spreecommerce.com/api/)
 
-Licence MIT (http://shaun.mit-licence.org)
+Licence MIT (http://shaun.mit-license.org)
