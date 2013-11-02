@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F25C7EF18250D2C00052896 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F25C7EE18250D2C00052896 /* Foundation.framework */; };
+		5F25C7F118250D2C00052896 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F25C7F018250D2C00052896 /* CoreGraphics.framework */; };
+		5F25C7F318250D2C00052896 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F25C7F218250D2C00052896 /* UIKit.framework */; };
+		5F25C7F918250D2C00052896 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F25C7F718250D2C00052896 /* InfoPlist.strings */; };
+		5F25C7FB18250D2C00052896 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F25C7FA18250D2C00052896 /* main.m */; };
+		5F25C7FF18250D2C00052896 /* spreAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F25C7FE18250D2C00052896 /* spreAppDelegate.m */; };
+		5F25C80218250D2C00052896 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F25C80018250D2C00052896 /* Main.storyboard */; };
+		5F25C80518250D2C00052896 /* spreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F25C80418250D2C00052896 /* spreViewController.m */; };
+		5F25C80718250D2C00052896 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F25C80618250D2C00052896 /* Images.xcassets */; };
+		5F25C80E18250D2C00052896 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F25C80D18250D2C00052896 /* XCTest.framework */; };
+		5F25C80F18250D2D00052896 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F25C7EE18250D2C00052896 /* Foundation.framework */; };
+		5F25C81018250D2D00052896 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F25C7F218250D2C00052896 /* UIKit.framework */; };
+		5F25C81818250D2D00052896 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F25C81618250D2D00052896 /* InfoPlist.strings */; };
+		5F25C81A18250D2D00052896 /* spreeExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F25C81918250D2D00052896 /* spreeExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F25C81118250D2D00052896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F25C7E318250D2C00052896 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F25C7EA18250D2C00052896;
+			remoteInfo = spreeExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F25C7EB18250D2C00052896 /* spreeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spreeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F25C7EE18250D2C00052896 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F25C7F018250D2C00052896 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5F25C7F218250D2C00052896 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5F25C7F618250D2C00052896 /* spreeExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spreeExample-Info.plist"; sourceTree = "<group>"; };
+		5F25C7F818250D2C00052896 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F25C7FA18250D2C00052896 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F25C7FC18250D2C00052896 /* spreeExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "spreeExample-Prefix.pch"; sourceTree = "<group>"; };
+		5F25C7FD18250D2C00052896 /* spreAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spreAppDelegate.h; sourceTree = "<group>"; };
+		5F25C7FE18250D2C00052896 /* spreAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spreAppDelegate.m; sourceTree = "<group>"; };
+		5F25C80118250D2C00052896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F25C80318250D2C00052896 /* spreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spreViewController.h; sourceTree = "<group>"; };
+		5F25C80418250D2C00052896 /* spreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spreViewController.m; sourceTree = "<group>"; };
+		5F25C80618250D2C00052896 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5F25C80C18250D2C00052896 /* spreeExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spreeExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F25C80D18250D2C00052896 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5F25C81518250D2D00052896 /* spreeExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spreeExampleTests-Info.plist"; sourceTree = "<group>"; };
+		5F25C81718250D2D00052896 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F25C81918250D2D00052896 /* spreeExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spreeExampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F25C7E818250D2C00052896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F25C7F118250D2C00052896 /* CoreGraphics.framework in Frameworks */,
+				5F25C7F318250D2C00052896 /* UIKit.framework in Frameworks */,
+				5F25C7EF18250D2C00052896 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F25C80918250D2C00052896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F25C80E18250D2C00052896 /* XCTest.framework in Frameworks */,
+				5F25C81018250D2D00052896 /* UIKit.framework in Frameworks */,
+				5F25C80F18250D2D00052896 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F25C7E218250D2C00052896 = {
+			isa = PBXGroup;
+			children = (
+				5F25C7F418250D2C00052896 /* spreeExample */,
+				5F25C81318250D2D00052896 /* spreeExampleTests */,
+				5F25C7ED18250D2C00052896 /* Frameworks */,
+				5F25C7EC18250D2C00052896 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F25C7EC18250D2C00052896 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F25C7EB18250D2C00052896 /* spreeExample.app */,
+				5F25C80C18250D2C00052896 /* spreeExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F25C7ED18250D2C00052896 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F25C7EE18250D2C00052896 /* Foundation.framework */,
+				5F25C7F018250D2C00052896 /* CoreGraphics.framework */,
+				5F25C7F218250D2C00052896 /* UIKit.framework */,
+				5F25C80D18250D2C00052896 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F25C7F418250D2C00052896 /* spreeExample */ = {
+			isa = PBXGroup;
+			children = (
+				5F25C7FD18250D2C00052896 /* spreAppDelegate.h */,
+				5F25C7FE18250D2C00052896 /* spreAppDelegate.m */,
+				5F25C80018250D2C00052896 /* Main.storyboard */,
+				5F25C80318250D2C00052896 /* spreViewController.h */,
+				5F25C80418250D2C00052896 /* spreViewController.m */,
+				5F25C80618250D2C00052896 /* Images.xcassets */,
+				5F25C7F518250D2C00052896 /* Supporting Files */,
+			);
+			path = spreeExample;
+			sourceTree = "<group>";
+		};
+		5F25C7F518250D2C00052896 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F25C7F618250D2C00052896 /* spreeExample-Info.plist */,
+				5F25C7F718250D2C00052896 /* InfoPlist.strings */,
+				5F25C7FA18250D2C00052896 /* main.m */,
+				5F25C7FC18250D2C00052896 /* spreeExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F25C81318250D2D00052896 /* spreeExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F25C81918250D2D00052896 /* spreeExampleTests.m */,
+				5F25C81418250D2D00052896 /* Supporting Files */,
+			);
+			path = spreeExampleTests;
+			sourceTree = "<group>";
+		};
+		5F25C81418250D2D00052896 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F25C81518250D2D00052896 /* spreeExampleTests-Info.plist */,
+				5F25C81618250D2D00052896 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F25C7EA18250D2C00052896 /* spreeExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F25C81D18250D2D00052896 /* Build configuration list for PBXNativeTarget "spreeExample" */;
+			buildPhases = (
+				5F25C7E718250D2C00052896 /* Sources */,
+				5F25C7E818250D2C00052896 /* Frameworks */,
+				5F25C7E918250D2C00052896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spreeExample;
+			productName = spreeExample;
+			productReference = 5F25C7EB18250D2C00052896 /* spreeExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F25C80B18250D2C00052896 /* spreeExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F25C82018250D2D00052896 /* Build configuration list for PBXNativeTarget "spreeExampleTests" */;
+			buildPhases = (
+				5F25C80818250D2C00052896 /* Sources */,
+				5F25C80918250D2C00052896 /* Frameworks */,
+				5F25C80A18250D2C00052896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F25C81218250D2D00052896 /* PBXTargetDependency */,
+			);
+			name = spreeExampleTests;
+			productName = spreeExampleTests;
+			productReference = 5F25C80C18250D2C00052896 /* spreeExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F25C7E318250D2C00052896 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = spre;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Shaun Hare";
+				TargetAttributes = {
+					5F25C80B18250D2C00052896 = {
+						TestTargetID = 5F25C7EA18250D2C00052896;
+					};
+				};
+			};
+			buildConfigurationList = 5F25C7E618250D2C00052896 /* Build configuration list for PBXProject "spreeExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F25C7E218250D2C00052896;
+			productRefGroup = 5F25C7EC18250D2C00052896 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F25C7EA18250D2C00052896 /* spreeExample */,
+				5F25C80B18250D2C00052896 /* spreeExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F25C7E918250D2C00052896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F25C80718250D2C00052896 /* Images.xcassets in Resources */,
+				5F25C7F918250D2C00052896 /* InfoPlist.strings in Resources */,
+				5F25C80218250D2C00052896 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F25C80A18250D2C00052896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F25C81818250D2D00052896 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F25C7E718250D2C00052896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F25C7FF18250D2C00052896 /* spreAppDelegate.m in Sources */,
+				5F25C7FB18250D2C00052896 /* main.m in Sources */,
+				5F25C80518250D2C00052896 /* spreViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F25C80818250D2C00052896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F25C81A18250D2D00052896 /* spreeExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F25C81218250D2D00052896 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F25C7EA18250D2C00052896 /* spreeExample */;
+			targetProxy = 5F25C81118250D2D00052896 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F25C7F718250D2C00052896 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F25C7F818250D2C00052896 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5F25C80018250D2C00052896 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F25C80118250D2C00052896 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F25C81618250D2D00052896 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F25C81718250D2D00052896 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F25C81B18250D2D00052896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F25C81C18250D2D00052896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F25C81E18250D2D00052896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spreeExample/spreeExample-Prefix.pch";
+				INFOPLIST_FILE = "spreeExample/spreeExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5F25C81F18250D2D00052896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spreeExample/spreeExample-Prefix.pch";
+				INFOPLIST_FILE = "spreeExample/spreeExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5F25C82118250D2D00052896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/spreeExample.app/spreeExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spreeExample/spreeExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "spreeExampleTests/spreeExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5F25C82218250D2D00052896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/spreeExample.app/spreeExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spreeExample/spreeExample-Prefix.pch";
+				INFOPLIST_FILE = "spreeExampleTests/spreeExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F25C7E618250D2C00052896 /* Build configuration list for PBXProject "spreeExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F25C81B18250D2D00052896 /* Debug */,
+				5F25C81C18250D2D00052896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F25C81D18250D2D00052896 /* Build configuration list for PBXNativeTarget "spreeExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F25C81E18250D2D00052896 /* Debug */,
+				5F25C81F18250D2D00052896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F25C82018250D2D00052896 /* Build configuration list for PBXNativeTarget "spreeExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F25C82118250D2D00052896 /* Debug */,
+				5F25C82218250D2D00052896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F25C7E318250D2C00052896 /* Project object */;
+}
