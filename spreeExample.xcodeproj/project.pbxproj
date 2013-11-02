@@ -22,6 +22,7 @@
 		5F25C81818250D2D00052896 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F25C81618250D2D00052896 /* InfoPlist.strings */; };
 		5F25C81A18250D2D00052896 /* spreeExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F25C81918250D2D00052896 /* spreeExampleTests.m */; };
 		5F25C8261825110700052896 /* spreDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F25C8251825110700052896 /* spreDataModel.m */; };
+		5F25C82818255AD500052896 /* sample-order.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F25C82718255AD500052896 /* sample-order.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		5F25C81918250D2D00052896 /* spreeExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spreeExampleTests.m; sourceTree = "<group>"; };
 		5F25C8241825110700052896 /* spreDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spreDataModel.h; sourceTree = "<group>"; };
 		5F25C8251825110700052896 /* spreDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = spreDataModel.m; sourceTree = "<group>"; };
+		5F25C82718255AD500052896 /* sample-order.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "sample-order.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				5F25C7F718250D2C00052896 /* InfoPlist.strings */,
 				5F25C7FA18250D2C00052896 /* main.m */,
 				5F25C7FC18250D2C00052896 /* spreeExample-Prefix.pch */,
+				5F25C82718255AD500052896 /* sample-order.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F25C82818255AD500052896 /* sample-order.json in Resources */,
 				5F25C80718250D2C00052896 /* Images.xcassets in Resources */,
 				5F25C7F918250D2C00052896 /* InfoPlist.strings in Resources */,
 				5F25C80218250D2C00052896 /* Main.storyboard in Resources */,
