@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "spreDataModel.h"
 
 @interface spreViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *dataLabel;
+
+- (IBAction)fetchOrder:(id)sender;
+
+-(void) updateLabel:(NSDictionary*) data;
 @end

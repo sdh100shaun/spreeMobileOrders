@@ -21,6 +21,7 @@
 		5F25C81018250D2D00052896 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F25C7F218250D2C00052896 /* UIKit.framework */; };
 		5F25C81818250D2D00052896 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F25C81618250D2D00052896 /* InfoPlist.strings */; };
 		5F25C81A18250D2D00052896 /* spreeExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F25C81918250D2D00052896 /* spreeExampleTests.m */; };
+		5F25C8261825110700052896 /* spreDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F25C8251825110700052896 /* spreDataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5F25C81518250D2D00052896 /* spreeExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spreeExampleTests-Info.plist"; sourceTree = "<group>"; };
 		5F25C81718250D2D00052896 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F25C81918250D2D00052896 /* spreeExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spreeExampleTests.m; sourceTree = "<group>"; };
+		5F25C8241825110700052896 /* spreDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spreDataModel.h; sourceTree = "<group>"; };
+		5F25C8251825110700052896 /* spreDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = spreDataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		5F25C7F418250D2C00052896 /* spreeExample */ = {
 			isa = PBXGroup;
 			children = (
+				5F25C82318250F9F00052896 /* models */,
 				5F25C7FD18250D2C00052896 /* spreAppDelegate.h */,
 				5F25C7FE18250D2C00052896 /* spreAppDelegate.m */,
 				5F25C80018250D2C00052896 /* Main.storyboard */,
@@ -150,6 +154,15 @@
 				5F25C81618250D2D00052896 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F25C82318250F9F00052896 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				5F25C8241825110700052896 /* spreDataModel.h */,
+				5F25C8251825110700052896 /* spreDataModel.m */,
+			);
+			name = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +266,7 @@
 				5F25C7FF18250D2C00052896 /* spreAppDelegate.m in Sources */,
 				5F25C7FB18250D2C00052896 /* main.m in Sources */,
 				5F25C80518250D2C00052896 /* spreViewController.m in Sources */,
+				5F25C8261825110700052896 /* spreDataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
